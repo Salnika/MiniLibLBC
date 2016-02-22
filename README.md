@@ -15,9 +15,12 @@ $result = $request->parseRequest();
 (Retourne du code HTML à afficher directement)
 
 # Options:
-- date
-- Image
-- titre
-- categorie
-- lieux
-- prix
+
+Permet d'afficher tel ou tel element :
+
+- date -> 'date'
+- image -> 'image'
+- titre -> 'title'
+- categorie -> 'category'
+- lieux -> 'placement'
+- prix -> 'price'
